@@ -10,7 +10,7 @@ export default function RootLayout({ children }: {
 }) {
   return (
     <html lang="ja">
-      <body className='bg-gradient-to-r from-violet-600 to-fuchsia-600'>
+      <body className='bg-gradient-to-r from-violet-500 to-fuchsia-500'>
         <Header />
         <div className={`${notoSansFont.className} container`}>
           {children}
