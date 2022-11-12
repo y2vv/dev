@@ -10,7 +10,7 @@ export default function RootLayout({ children }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ja" className='bg-gradient-to-tr from-primary_blue-700 to-primary_blue-900'>
+    <html lang="ja" className='bg-gradient-to-tr from-gray-700 to-gray-900'>
       <body className={`${mainFont.className}`}>
         <Header />
         <div className='container mx-auto'>

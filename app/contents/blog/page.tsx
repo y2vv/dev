@@ -1,4 +1,4 @@
 export default function BlogTop() {
-  return <>blog</>
+  return <div className="text-white">blog top</div>
 }
 
